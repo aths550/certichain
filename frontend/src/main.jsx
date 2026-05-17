@@ -6,7 +6,7 @@ import { WalletProvider } from "./context/WalletContext";
 import { AuthProvider } from "./context/AuthContext";
 import axios from 'axios';
 
-axios.defaults.baseURL = 'http://localhost:5005';
+axios.defaults.baseURL = 'https://certichain-mc98.onrender.com';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
