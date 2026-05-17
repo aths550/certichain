@@ -1,0 +1,61 @@
+{
+  "students": [
+    {
+      "id": "STU-1777025714811",
+      "name": "Sahil",
+      "email": "sahil0202@gmail.com",
+      "username": "sahil_0202",
+      "password": "Athu.550",
+      "rollNumber": "MITWPU54",
+      "institution": "MIT-WPU",
+      "createdAt": "2026-04-24T10:15:14.811Z"
+    },
+    {
+      "id": "STU-1777031222511",
+      "name": "Atharva ",
+      "email": "atharvanarute29@gmail.com",
+      "username": "_aths_550",
+      "password": "athu.550",
+      "rollNumber": "BSC24BCT72",
+      "institution": "Savitribai Phule Pune University-DOT",
+      "phone": "9503981129",
+      "createdAt": "2026-04-24T11:47:02.511Z"
+    },
+    {
+      "id": "STU-1779005275556",
+      "name": "Prajakta",
+      "email": "prajaktagatkal062@gmail.com",
+      "username": "praju_0312",
+      "password": "prajakta0312",
+      "rollNumber": "BSC25BCT70 ",
+      "institution": "Savitribai Phule Pune University ",
+      "createdAt": "2026-05-17T08:07:55.556Z"
+    }
+  ],
+  "activities": [
+    {
+      "username": "praju_0312",
+      "action": "Account Created",
+      "details": "Student registered a new account.",
+      "timestamp": 1779005275651
+    },
+    {
+      "username": "_aths_550",
+      "action": "Login",
+      "details": "Student logged into the portal.",
+      "timestamp": 1777031239250
+    },
+    {
+      "username": "_aths_550",
+      "action": "Account Created",
+      "details": "Student registered a new account.",
+      "timestamp": 1777031222524
+    },
+    {
+      "username": "sahil_0202",
+      "action": "Account Created",
+      "details": "Student registered a new account.",
+      "timestamp": 1777025714837
+    }
+  ]
+}
