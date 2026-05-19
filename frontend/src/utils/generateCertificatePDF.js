@@ -134,7 +134,8 @@ export const generateCertificatePDF = async (certData, txHash) => {
         roll: certData.rollNumber || "",
         degree: certData.degree || ""
     });
-    const verifyUrl = `${window.location.origin}/verify?${params.toString()}`;
+    const baseUrl = import.meta.env.VITE_PUBLIC_URL || window.location.origin;
+    const verifyUrl = `${baseUrl}/verify?${params.toString()}`;
     
     const qrDataUrl = await QRCode.toDataURL(verifyUrl, {
         width: 200,

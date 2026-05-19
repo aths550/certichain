@@ -6,7 +6,11 @@ import { WalletProvider } from "./context/WalletContext";
 import { AuthProvider } from "./context/AuthContext";
 import axios from 'axios';
 
-axios.defaults.baseURL = 'https://certichain-mc98.onrender.com';
+const isLocal = window.location.hostname === 'localhost' || 
+                window.location.hostname === '127.0.0.1' || 
+                window.location.hostname.endsWith('.ngrok-free.dev');
+
+axios.defaults.baseURL = isLocal ? '' : 'https://certichain-mc98.onrender.com';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

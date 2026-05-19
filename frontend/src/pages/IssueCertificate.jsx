@@ -249,9 +249,8 @@ const IssueCertificate = ({ account }) => {
                     name="institution" 
                     value={formData.institution} 
                     onChange={handleInputChange} 
-                    className="input-field w-full bg-white/5 opacity-70 cursor-not-allowed" 
+                    className="input-field w-full" 
                     placeholder="Enter Exact College Name" 
-                    readOnly 
                   />
                 </div>
 
